@@ -1,0 +1,94 @@
+/*main body styling*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+/*Hero/cover image Section*/
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+  background-image: url("https://i.guim.co.uk/img/media/cf90a0ad4797930ee6d780dd0930c74cfec7a92f/0_300_4500_2700/master/4500.jpg?width=700&quality=85&auto=format&fit=max&s=900d08629585511256cd2530fcd69d1e");
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*Page Title*/
+h1{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/*FAQ layout*/
+.bold_text {
+  font-weight: bold;
+}
+
+.accordion-section .panel-default > .panel-heading {
+  border: 0;
+  background: #f4f4f4;
+  padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+  display: block;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: 3rem;
+  content: "\f106";
+  color: #616972;
+  float: right;
+  margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+  content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+  font-size: 1.2rem;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+  
+a:hover{
+  color: rgb(99, 0, 0);
+  text-decoration: none;
+  transform:scale(1.01);
+}
+
+.container{
+  padding-bottom: 20px;
+}
+
+/*video section*/
+.rectangle{ 
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: auto; 
+  background-color: #F7EFEC
+}
+
+/*Footer*/
+footer p{
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #000000;
+}

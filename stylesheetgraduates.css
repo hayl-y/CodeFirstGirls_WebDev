@@ -1,0 +1,108 @@
+/*main body styling*/
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+
+/*Hero/cover image Section*/
+body, html {
+  height: 100%;
+}
+
+.hero-image {
+  background-image: url("https://www.ntu.ac.uk/__data/assets/image/0020/212087/Graduation_July2014.jpg");
+
+  height: 50%;
+
+  background-position: 40% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/*Nav Tabs*/
+#mySidenav a {
+  position: fixed;
+  left: -180px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 200px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  z-index: 5;
+  }
+
+  @media screen and (max-height: 450px) {
+  .mySidenav {padding-top: 15px;}
+  .mySidenav a {font-size: 18px;}
+  }
+  
+  #mySidenav a:hover {
+  left: 0;
+  }
+  
+  #undergrad {
+  top: 300px;
+  background-color: #D8AAC2;
+  }
+  
+  #postgrad {
+  top: 370px;
+  background-color: #AAD8C0;
+  }
+  
+  #prices {
+  top: 440px;
+  background-color: #AAC2D8;
+  }
+
+
+  /*Page Title*/
+h1{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Undergrads*/
+.undergrad-header{
+  padding-top: 50px;
+}
+
+.text-block{
+  position: relative;
+  width: 350px;
+  top: 20px;
+  bottom: 20px;
+  padding-left: 40px;
+  padding-right: 20px;
+  text-align: justify;
+  line-height: 25px;
+} 
+
+/*Postgrads*/
+.postgrad-header{
+  padding-top: 50px;
+}
+
+/*Pricing*/
+.card-deck{
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}  
+
+/*Footer*/
+footer p{
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #000000;
+}
