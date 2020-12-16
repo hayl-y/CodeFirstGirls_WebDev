@@ -4,11 +4,11 @@ body{
   font-weight: normal;
 }
 
-/*Hero/cover image Section*/
 body, html {
   height: 100%;
 }
 
+/*Hero/cover image Section*/
 .hero-image {
   background-image: url("https://www.ntu.ac.uk/__data/assets/image/0020/212087/Graduation_July2014.jpg");
 
@@ -33,67 +33,147 @@ body, html {
   color: white;
   border-radius: 0 5px 5px 0;
   z-index: 5;
-  }
+}
 
-  @media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
   .mySidenav {padding-top: 15px;}
   .mySidenav a {font-size: 18px;}
-  }
-  
-  #mySidenav a:hover {
+}
+
+#mySidenav a:hover {
   left: 0;
-  }
-  
-  #undergrad {
-  top: 300px;
+}
+
+#grads {
+  top: 280px;
+  background-color: #d8bcaa;
+}
+
+#undergrad {
+  top: 350px;
   background-color: #D8AAC2;
-  }
-  
-  #postgrad {
-  top: 370px;
+}
+
+#postgrad {
+  top: 420px;
   background-color: #AAD8C0;
-  }
-  
-  #prices {
-  top: 440px;
+}
+
+#prices {
+  top: 490px;
   background-color: #AAC2D8;
-  }
+}
 
-
-  /*Page Title*/
+/*Page Title*/
 h1{
   padding-top: 50px;
   display: flex;
   justify-content: center;
 }
 
-/*Undergrads*/
-.undergrad-header{
-  padding-top: 50px;
-}
-
-.text-block{
-  position: relative;
-  width: 350px;
-  top: 20px;
-  bottom: 20px;
-  padding-left: 40px;
-  padding-right: 20px;
-  text-align: justify;
-  line-height: 25px;
-} 
-
-/*Postgrads*/
-.postgrad-header{
-  padding-top: 50px;
+/*intro*/
+.graduates-header{
+  text-align: center;
+  padding-left:  18%;
+  padding-right: 18%;
+  padding-bottom: 40px;
 }
 
 /*Pricing*/
-.card-deck{
+h2 {
   padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-deck{
+  padding-top: 10px;
   padding-left: 10%;
   padding-right: 10%;
-}  
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+
+.price .header {
+  background-color: #AAC2D8;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+/*background boxes*/
+.rectangle-grad { 
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: auto; 
+  background-color: #f3eae5;
+}
+
+.rectangle-undergrad { 
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: auto; 
+  background-color: #f7eef2;
+}
+
+.rectangle-postgrad { 
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: auto; 
+  background-color: #e5f3ec;
+}
+
+.rectangle-plan { 
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: auto; 
+  background-color: #dee8f0;
+}
 
 /*Footer*/
 footer p{

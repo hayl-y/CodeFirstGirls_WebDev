@@ -7,3 +7,11 @@ a:hover{
   color: white;
   text-decoration: none;
 }
+
+.row-center{
+  align-items: center;
+}
+
+iframe{
+  max-width: 90%;
+}

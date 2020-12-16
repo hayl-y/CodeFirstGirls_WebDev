@@ -4,17 +4,14 @@ body{
   font-weight: normal;
 }
 
-
-/*Hero/cover image Section*/
 body, html {
   height: 100%;
 }
+
+/*Hero/cover image Section*/
 .hero-image {
   background-image: url("https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
-  /*background-image: url("https://www.ntu.ac.uk/__data/assets/image/0025/546037/graduation-day-thumb.jpg");*/
-
   height: 50%;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,21 +20,26 @@ body, html {
 
 /*The Uni Gown Hire way Section*/
 h1.our-way{
-    font-size: 54px;
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
+  font-size: 54px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 p.our-way{
-    padding-top: 20px; 
-    display: flex;
-    justify-content: center;
+  padding-top: 20px; 
+  display: flex;
+  justify-content: center;
 
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 32px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.btn.btn-secondary{
+  display: flex;
+  justify-content: center;
 }
 
 /*The Uni Hire Way*/
@@ -64,6 +66,12 @@ p.congratulationsheader{
   padding-top: 20px;
   display: flex;
   justify-content: center;
+}
+
+span{
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .congratulations{
@@ -122,10 +130,6 @@ p.congratulationsheader{
 .who-are-we{
   padding-top: 50px;
   padding-bottom: 40px;
-}
-
-.row-center{
-  align-items: center;
 }
 
 /*Footer*/
