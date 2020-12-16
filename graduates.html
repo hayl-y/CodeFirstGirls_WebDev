@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" type="text/css" href="stylesheetgraduates.css">
-    <meta charset="UTF-8">
-    <meta name="author" content="Hayley So and ?">
-    <meta name="description" content="The graudates page, where you can find more infomration if you are an undergrad or postgrad along with the pricing">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Graduates</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="stylesheetall.css">
+  <link rel="stylesheet" type="text/css" href="stylesheetgraduates.css">
+  <meta charset="UTF-8">
+  <meta name="author" content="Hayley So">
+  <meta name="description" content="The graduates page, where you can find more information if you are an undergrad or postgrad along with the pricing">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graduates</title>
 </head>
+
 <body>
   <!--Navigation Bar-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -38,49 +39,66 @@
           <span class="navbar-text"> Nottingham Trent University </span>
         </div>
   </nav>
-​
+  
   <!--First Image at the top of the FAQs Page-->
   <div class="hero-image"></div>
-​
+  
   <!-- Nav tabs -->
   <div id="mySidenav" class="sidenav">
+    <a href="#graduates" id="grads">Intro</a>
     <a href="#undergraduates" id="undergrad">Undergraduates</a>
     <a href="#postgraduates" id="postgrad">Postgraduates</a>
     <a href="#pricing" id="prices">Plans & Pricing</a>
   </div>
   
   <!--Sections-->
+  <div class="rectangle-grad">
+    <div class="graduates-header" id="graduates">
+      <h1>conGRADulations!!</h1>
+      <p>Firstly we want to congratulate you for completing your degree! We at Uni Gown Ltd acknowledge the hard work that you have put in. Uni Gown Hire Ltd is the perfect place to gather your graduation essentials, and more… to help you facilitate one of the best days of your life!</p>
+    </div>
+  </div>
+
   <!--Undergrads Section-->
   <div class="undergrad-header" id="undergraduates">
-    <div class="rectangle">
+    <div class="rectangle-undergrad">
       <div class="container">
         <div class="row row-center">
-          <div class ="text-block col-md-5">
+          <div class ="col-md-5">
             <h2>Undergraduates</h2>
-            <p>Uni Gown Hire Ltd is the perfect place to gather your graduation essentials, and more… to help you facilitate one of the best days of your life</p>
-            <p>An Undergraduate Graduation is the day students and families dream of! It really is a date to remember for the calendar, and it is our job to make sure you really do look and feel the part</p>
-            <p>So why wait? Get sorted with us now</p>
+            <p>As an undergradute, this is most probably your first graduation! Know that we are here to support you on this graduation journey.</p>
+            <p>We will require the following measurements to ensure that it fits you.</p>
+            <ul>
+              <li>circumference of your head - measure 1 inch (25mm) above your eyebrows</li>
+              <li>your full height (in feet and inches or centimetres)</li>
+              <li>If your chest is over 52" (132cm) you are further requested to supply your actual measurements</li>
+            </ul>
           </div>
-          <div class ="graduates-image col-md-7">
-            <img src="https://www.gannett-cdn.com/presto/2019/05/14/USAT/6717a231-f65a-48f9-ba0d-4486a3785a71-gradpic.jpg" class="img-fluid" alt="Last Years Fun at Graduation!">
+          <div class ="col-md-7">
+            <img src="https://www.ntu.ac.uk/__data/assets/image/0035/757844/Graduation-hire-your-gown.jpg" class="img-fluid" alt="Last Years Fun at Graduation!">
           </div>
         </div>
       </div>
     </div>
   </div>
-​
+  
   <!--Postgrads Section-->
   <div class="postgrad-header" id="postgraduates">
-    <div class="rectangle">
+    <div class="rectangle-postgrad">
       <div class="container">
         <div class="row row-center">
-          <div class ="graduates-image col-md-7">
-            <img src="https://marinacafesiny.com/wp-content/uploads/2018/10/photo-1505919018433-1c2dd691f902.jpg" class="img-fluid" alt="A Well Deserved Drink for All Your Hard Work" height="350">
+          <div class ="col-md-7">
+            <img src="https://www.ntu.ac.uk/__data/assets/image/0022/544603/post-graduation.jpg" class="img-fluid" alt="A Well Deserved Drink for All Your Hard Work">
           </div>
-          <div class ="text-block col-md-5">
+          <div class ="col-md-5">
             <h2>Postgraduates</h2>
-            <p>Postgraduation graduation is just as important as your first ever Graduation! If not more important</p>
-            <p>What a perfect day to celebrate your hard work over the years, let Uni Gown Hire take care of everything for yourself and your family</p>
+            <p>Postgraduation graduation is just as important as your first ever Graduation! If not more important!</p>
+            <p>We will require the following measurements to ensure that it fits you.</p>
+            <ul>
+              <li>circumference of your head - measure 1 inch (25mm) above your eyebrows</li>
+              <li>your full height (in feet and inches or centimetres)</li>
+              <li>If your chest is over 52" (132cm) you are further requested to supply your actual measurements</li>
+            </ul>         
           </div>
         </div>
       </div>
@@ -89,57 +107,54 @@
   
   <!--Page Title-->
   <div class="pricing-header" id="pricing">
-    <h1>Plans & Pricing</h1>
-​
+    <div class="rectangle-plan">
+    <h2>Plans & Pricing</h2>
     <div class="container-fluid">
       <div class="card-deck">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title"><b>Basic Pricing Package</b></h5>
-              <p class="card-text">The basic package includes the following: Graduation gown/suit and cap</p>
-              <p class="card-text">Outfits can be chosen via our website</p>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-            <p class="card-text"><small class="text-muted">Uni Gown Hire Ltd</small></p>
-          </div>
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Graduation Standard</li>
+            <li class="grey">£34</li>
+            <li>5 Days Hire</li>
+            <li>Mortarboard</li>
+            <li>Gown</li>
+            <li>Hood</li>
+            <li class="grey"><a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">SOLD OUT</a></li>
+          </ul>
         </div>
-        <div class="card">
-              <div class="card-body">
-                <h5 class="card-title"><b>Medium Pricing Package</b></h5>
-                <p class="card-text">Medium package includes: Graduation gown/suit, grad cap, personalised tassels, accessories (key chains, school bag), diploma frame</p>
-                <p class="card-text">Also includes photos all day from our professional photographer for your special day!</p>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            <p class="card-text"><small class="text-muted">Uni Gown Hire Ltd</small></p>
-          </div>
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Graduation Plus</li>
+            <li class="grey">£85</li>
+            <li>Purchase to Keep</li>
+            <li>Mortarboard</li>
+            <li>Gown</li>
+            <li>Hood</li>
+            <li class="grey"><a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">SOLD OUT</a></li>
+          </ul>
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title"><b>Premium Pricing Package</b></h5>
-            <p class="card-text">The whole package. The premium package is for those individuals who want to look extra on their day, ensuring the lime light is always on them</p>
-            <p>Premium package includes: Graduation gown/suit, grad cap, personalsied tassels, accessories (key chains, school bag), personalised jewelry, photographs. Plus, travel in style- with our very own transportation to the event via limousine!</p>
-            <p class="card-text"><small class="text-muted">Uni Gown Hire Ltd</small></p>
-          </div>
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Graduation Premium</li>
+            <li class="grey">£150</li>
+            <li>Purchase to Keep</li>
+            <li>Mortarboard / Gown / Hood</li>
+            <li>Certificate Modern Frame</li>
+            <li>Graduation Teddy Bear</li>
+            <li class="grey"><a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">SOLD OUT</a></li>
+          </ul>
         </div>
       </div>
+    </div>
+      <!--Copyright Footer-->
+      <footer>
+        <p>© Created by Hayley So and Kasia Renc</p>
+      </footer>
+    </div>
   </div>
-​
-  <!--Copyright Footer-->
-  <footer>
-    <p>© Created by Hayley So, Kasia Renc and Charlie Richards</p>
-  </footer>
-​
+    
+  
+  
   <!--jQuery, Popper.js, and Bootstrap JavaScript-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

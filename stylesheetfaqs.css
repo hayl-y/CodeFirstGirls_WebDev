@@ -4,11 +4,11 @@ body{
     font-weight: normal;
 }
 
-/*Hero/cover image Section*/
 body, html {
-    height: 100%;
+  height: 100%;
 }
 
+/*Hero/cover image Section*/
 .hero-image {
   background-image: url("https://i.guim.co.uk/img/media/cf90a0ad4797930ee6d780dd0930c74cfec7a92f/0_300_4500_2700/master/4500.jpg?width=700&quality=85&auto=format&fit=max&s=900d08629585511256cd2530fcd69d1e");
 
@@ -64,7 +64,7 @@ a{
 }
   
 a:hover{
-  color: rgb(99, 0, 0);
+  color: #BC53E6;
   text-decoration: none;
   transform:scale(1.01);
 }
