@@ -36,6 +36,7 @@ h1{
   border: 0;
   background: #f4f4f4;
   padding: 0;
+  border-radius: 4px;
 }
 .accordion-section .panel-default .panel-title a {
   display: block;
@@ -70,13 +71,13 @@ a:hover{
 }
 
 .container{
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 /*video section*/
 .rectangle{ 
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   width: auto; 
   background-color: #F7EFEC
 }

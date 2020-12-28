@@ -19,25 +19,24 @@ body, html {
 }
 
 /*The Uni Gown Hire way Section*/
-h1.our-way{
-  font-size: 54px;
+h1.our-way {
+  font-size: 50px;
   padding-top: 50px;
   display: flex;
   justify-content: center;
 }
 
-p.our-way{
+p.our-way {
   padding-top: 20px; 
   display: flex;
   justify-content: center;
-
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
   line-height: 32px;
 }
 
-.btn.btn-secondary{
+.btn.btn-secondary {
   display: flex;
   justify-content: center;
 }
@@ -49,26 +48,24 @@ p.our-way{
   padding-right: 10%;
 }
 
-
 /*congradulations*/
-h2.congratulationsheader{
+h2.congratulationsheader {
   padding-top: 50px;
   display: flex;
   justify-content: center;
-  
   font-style: normal;
   font-weight: 300;
   font-size: 64px;
   line-height: 32px;
 }
 
-p.congratulationsheader{
+p.congratulationsheader {
   padding-top: 20px;
   display: flex;
   justify-content: center;
 }
 
-span{
+span.congratulationsheader {
   font-weight: bold;
   padding-left: 5px;
   padding-right: 5px;
@@ -130,6 +127,10 @@ span{
 .who-are-we{
   padding-top: 50px;
   padding-bottom: 40px;
+}
+
+h2.w-a-w-title{
+  padding-bottom: 20px;
 }
 
 /*Footer*/
