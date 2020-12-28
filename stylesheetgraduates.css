@@ -64,19 +64,31 @@ body, html {
   background-color: #AAC2D8;
 }
 
+#ggrads {
+  top: 560px;
+  background-color: #AAC2D8;
+}
+
 /*Page Title*/
-h1{
-  padding-top: 50px;
+.graduates-header h1{
+  padding-top: 20px;
   display: flex;
   justify-content: center;
+  font-size: 50px;
 }
 
 /*intro*/
 .graduates-header{
   text-align: center;
-  padding-left:  18%;
-  padding-right: 18%;
-  padding-bottom: 40px;
+  padding-left:  12%;
+  padding-right: 12%;
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+
+/*Sections Under and Postgrad*/
+.img-fluid{
+  border-radius: 10px;
 }
 
 /*Pricing*/
@@ -158,21 +170,27 @@ h2 {
   padding-top: 40px;
   padding-bottom: 40px;
   width: auto; 
-  background-color: #f7eef2;
+  /*background-color: #f7eef2;*/
 }
 
 .rectangle-postgrad { 
   padding-top: 40px;
   padding-bottom: 40px;
   width: auto; 
-  background-color: #e5f3ec;
+  /*background-color: #e5f3ec;*/
 }
 
 .rectangle-plan { 
   padding-top: 40px;
+  padding-bottom: 20px;
+  width: auto; 
+  /*background-color: #dee8f0;*/
+}
+
+.rectangle-generalgrad { 
+  padding-top: 40px;
   padding-bottom: 40px;
   width: auto; 
-  background-color: #dee8f0;
 }
 
 /*Footer*/
